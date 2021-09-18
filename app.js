@@ -1,5 +1,9 @@
+
+let year = new Date().getFullYear()
+
+
 const countdown = () => {
-  const countDate = new Date("August 24, 2021 00:00:00").getTime();
+  const countDate = new Date(`December 24, ${year} 00:00:00`).getTime();
   const currentTime = new Date().getTime();
 
   const gap = countDate - currentTime;
